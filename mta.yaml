@@ -1,3 +1,21 @@
 ID: okk
 _schema-version: '2.1'
 version: 0.0.1
+
+modules:
+ - name: okk
+   type: hdb
+   path: okk
+   requires:
+    - name: hdi_okk
+
+
+ - name: HTMLBICS
+   type: html5
+   path: HTMLBICS
+
+resources:
+ - name: hdi_okk
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
