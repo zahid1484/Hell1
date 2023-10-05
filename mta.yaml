@@ -1,3 +1,4 @@
+<<<<<<< Upstream, based on origin/main
 ID: okk
 _schema-version: '2.1'
 version: 0.0.1
@@ -19,3 +20,9 @@ resources:
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+=======
+ID: Testzzz
+_schema-version: '2.1'
+description: ok
+version: 0.0.1
+>>>>>>> 520670d OK
